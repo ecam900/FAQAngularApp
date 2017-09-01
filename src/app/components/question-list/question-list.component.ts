@@ -13,15 +13,18 @@ export class QuestionListComponent implements OnInit {
     this.questions = [
       {
         text: 'What is your name?',
-        answer: 'My favorite color is red'
+        answer: 'My favorite color is red',
+        hide:true
       },
       {
         text: 'What is your favorite color?',
-        answer: 'Blue'
+        answer: 'Blue',
+        hide:true
       },
       {
         text: 'What is your favorite food?',
-        answer: 'Pizza'
+        answer: 'Pizza',
+        hide:true
       }
     ];
     
